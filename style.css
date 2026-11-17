@@ -1,0 +1,168 @@
+/* Base: page font, colour and background */
+body {
+  margin: 0;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  color: #1f2933;
+  background-color: #faf6f2;
+}
+
+/* Headings and bold titles */
+h1,
+h2,
+h5,
+strong {
+  font-family: "Manrope", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0 0 8px 0;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 48px 0 24px 0;
+  padding-bottom: 8px;
+  color: #44634a;
+  border-style: solid;
+  border-width: 0 0 3px 0;
+  border-color: #7d8f69;
+}
+
+h5 {
+  font-size: 17px;
+  margin: 0 0 8px 0;
+  color: #44634a;
+}
+
+strong {
+  color: #44634a;
+}
+
+/* Links: dark sage green */
+a {
+  color: #44634a;
+}
+
+a:hover {
+  color: #2f4a36;
+}
+
+/* Header sage green*/
+header {
+  padding: 48px 10% 24px 10%;
+  background-color: #44634a;
+  color: #ffffff;
+}
+
+header img {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 0 24px 0 0;
+  border: 4px solid #faf6f2;
+  border-radius: 75px;
+  vertical-align: middle;
+}
+
+.intro {
+  display: inline-block;
+  width: 65%;
+  vertical-align: middle;
+}
+
+.intro p {
+  margin: 0;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+/* Navigation bar */
+nav {
+  position: sticky;
+  top: 0;
+  padding: 8px 10% 8px calc(10% - 12px);
+  text-align: left;
+  background-color: #ffffff;
+  border-style: solid;
+  border-width: 0 0 1px 0;
+  border-color: #e4e7eb;
+}
+
+nav a {
+  display: inline-block;
+  padding: 10px 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #f1e8df;
+  color: #44634a;
+}
+
+nav a:active {
+  background-color: #e8d9c9;
+}
+
+/* Main content: side spacing */
+main {
+  padding: 0 10% 24px 10%;
+}
+
+#summary p {
+  margin: 0;
+}
+
+/* Cards */
+article,
+#experience p {
+  padding: 24px;
+  margin: 0 0 24px 0;
+  background-color: #ffffff;
+  border: 1px solid #e4e7eb;
+  border-radius: 8px;
+}
+
+article p {
+  margin: 0 0 8px 0;
+}
+
+article ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+article li {
+  margin: 0 0 8px 0;
+}
+
+article:hover,
+#experience p:hover {
+  border-color: #7d8f69;
+  background-color: #fdfaf7;
+}
+
+/* Skills */
+#skills p {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0 8px 8px 0;
+  color: #44634a;
+  background-color: #f1e8df;
+  border: 1px solid #dccab8;
+  border-radius: 8px;
+}
+
+/* Footer: sage green band to match the header */
+footer {
+  padding: 24px;
+  text-align: center;
+  color: #ecdcd0;
+  background-color: #44634a;
+}
+
+footer p {
+  margin: 0;
+}
